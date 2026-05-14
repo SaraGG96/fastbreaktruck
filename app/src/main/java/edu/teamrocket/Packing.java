@@ -1,7 +1,7 @@
 package edu.teamrocket;
 
-public class Packing {
+public interface Packing {
 
-    public String envoltorio;
+    public String envoltorio();
     
 }
