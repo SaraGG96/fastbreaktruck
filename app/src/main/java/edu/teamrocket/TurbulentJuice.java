@@ -1,12 +1,12 @@
 package edu.teamrocket;
 
-public class FleebJuice extends Bebida {
-
+public class TurbulentJuice extends Bebida {
+    
     private final String NOMBRE;
     private final Float PVP;
 
-    public FleebJuice() {
-        this.NOMBRE = "Fleeb Juice";
+    public TurbulentJuice() {
+        this.NOMBRE = "Turbulent Juice";
         this.PVP = 2.5f;
     }
 
@@ -16,5 +16,4 @@ public class FleebJuice extends Bebida {
     public Float pvp() {
         return this.PVP;
     }
-
 }
